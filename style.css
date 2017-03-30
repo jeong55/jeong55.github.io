@@ -1,0 +1,74 @@
+@import
+url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  /*font-size: 40px;*/
+}
+
+.container{
+  width:960px;
+
+}
+nav{
+  height: 70px;
+  width: 100%;
+  background-color: black;
+
+}
+
+nav h1{
+  color : white;
+  line-height : 70px;
+  display : inline-block;
+  vertical-align:middle;
+}
+
+nav a{
+  color : white;
+  text-decoration : none;
+  line-height : 70px;
+  display : inline-block;
+  vertical-align:middle;
+  float : right;
+  margin-left : 5px;
+}
+
+header{
+  height: 600px;
+  width: 100%;
+  background-color: yellow;
+}
+
+section{
+  width: 100%;
+  background-color: pink;
+  vertical-aligh: middle;
+  display : inline-block;
+
+}
+
+.row{
+  text-align : center;
+  margin: 0 auto;
+}
+/*article{
+  padding-bottom : 500px;
+  background-color : red;
+  float : left;
+  margin: 5px;
+}*/
+.col-md-4 > img{
+  width: 310px;
+  height : 310px;
+}
+
+.col-md-4 p{
+  width : 310px;
+  background-color : white;
+}
+footer{
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: green;
+}
