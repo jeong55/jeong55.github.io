@@ -1,5 +1,4 @@
-@import
-url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 *{
   box-sizing: border-box;
   margin: 0 auto;
@@ -10,6 +9,7 @@ url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
   width:960px;
 
 }
+
 nav{
   height: 70px;
   width: 100%;
@@ -19,7 +19,7 @@ nav{
 
 nav h1{
   color : white;
-  line-height : 70px;
+  line-height : 30px;
   display : inline-block;
   vertical-align:middle;
 }
@@ -37,27 +37,43 @@ nav a{
 header{
   height: 600px;
   width: 100%;
-  background-color: yellow;
+  background-color: white;
 }
 
 section{
   width: 100%;
-  background-color: pink;
+  background-color: white;
   vertical-aligh: middle;
   display : inline-block;
 
+}
+
+footer{
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: lightgray;
+}
+
+img{
+  margin : 15px;
+  width : 60%;
+  height : 400px;
+  vertical-align: middle;
+  display : block;
+  margin-left : auto;
+  margin-right : auto;
+}
+
+.row1{
+  text-align : center;
+  margin: 0 auto;
 }
 
 .row{
   text-align : center;
   margin: 0 auto;
 }
-/*article{
-  padding-bottom : 500px;
-  background-color : red;
-  float : left;
-  margin: 5px;
-}*/
+
 .col-md-4 > img{
   width: 310px;
   height : 310px;
@@ -67,8 +83,29 @@ section{
   width : 310px;
   background-color : white;
 }
-footer{
-  padding-bottom: 50px;
-  width: 100%;
-  background-color: green;
+
+footer a{
+  color : black;
+  float : left;
+  text-decoration : none;
+  line-height : 70px;
+  display : inline-block;
+  vertical-align:middle;
+  margin-left : 5px;
+  margin-right : 5px;
+}
+
+footer p{
+  color : darkgray;
+  float : right;
+  line-height : 70px;
+  display : inline-block;
+  vertical-align: middle;
+  margin-lenft : 5px;
+}
+
+.dropup{
+  line-height : 70px;
+  display : inline-block;
+  vertical-align : middle;
 }
